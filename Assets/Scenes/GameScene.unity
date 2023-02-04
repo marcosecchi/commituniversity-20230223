@@ -8784,6 +8784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 290870297}
+  - component: {fileID: 290870298}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -8808,6 +8809,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290870298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290870296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70f1b7b9c96f9f418857b1352d8fd6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &294082395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22523,7 +22536,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824161221}
-  m_LocalRotation: {x: 0.70028555, y: -0.0000007473448, z: 0.00000073313066, w: 0.71386284}
+  m_LocalRotation: {x: 0.7002856, y: 0.0000006437929, z: -0.0000006315484, w: 0.7138628}
   m_LocalPosition: {x: 0, y: 51.35, z: -0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25867,7 +25880,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.70028555, y: -0.0000007473448, z: 0.00000073313066, w: 0.71386284}
+  m_LocalRotation: {x: 0.7002856, y: 0.0000006437929, z: -0.0000006315484, w: 0.7138628}
   m_LocalPosition: {x: 0, y: 51.35, z: -0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -30300,6 +30313,7 @@ GameObject:
   - component: {fileID: 1152419853}
   - component: {fileID: 1152419852}
   - component: {fileID: 1152419851}
+  - component: {fileID: 1152419854}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -30364,10 +30378,10 @@ MonoBehaviour:
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_DeadZoneWidth: 0.4
-  m_DeadZoneHeight: 0.5
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
+  m_DeadZoneWidth: 0.55
+  m_DeadZoneHeight: 0.63
+  m_SoftZoneWidth: 0.91
+  m_SoftZoneHeight: 0.93
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
@@ -30383,6 +30397,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1152419854
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152419849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0.4
+  m_FrequencyGain: 0.4
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1001 &1156343353
 PrefabInstance:
   m_ObjectHideFlags: 0
