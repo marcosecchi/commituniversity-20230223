@@ -16,5 +16,5 @@ _23 Febbraio 2023_
 * Da Unity Hub selezionare _Projects > Open_ e navigare fino alla cartella _root_ del progetto
 * Confermare la scelta
 
-
+![Cover 01](https://github.com/marcosecchi/commituniversity-20230223/blob/master/cover.png)
  
