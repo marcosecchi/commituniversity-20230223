@@ -19,3 +19,6 @@ _23 Febbraio 2023_
 ![Cover 01](https://github.com/marcosecchi/commituniversity-20230223/blob/master/cover.png)
 ![Cover 02](https://github.com/marcosecchi/commituniversity-20230223/blob/master/cover_02.png)
  
+#### Credits
+
+* Assets by [Kenney](https://kenney.nl/)
