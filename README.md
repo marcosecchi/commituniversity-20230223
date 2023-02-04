@@ -6,7 +6,7 @@ _23 Febbraio 2023_
 
 #### Installazione Unity
 
-* Scaricare [Unity Hub](https://unity.com/unity-hub) ed installarlo
+* Scaricare [Unity Hub](https://unity.com/download) ed installarlo
 * Registrarsi ed effettuar il login
 * Nella sezione _Installs_ selezionare _Install Editor_ e scegliere la versione _2021.3.xx LTS_ (al momento della scrittura, la versione è _2021.3.18f1 LTS_)
 
